@@ -1,0 +1,4 @@
+timestamp,full_name,cnic,contact,address,province,district,city,income_pkr,family_size,flood_risk,house,prediction,confidence_pct,relief_center,email_sent
+2026-04-24 23:26:35,MMM,aeoire,wjijr,or[ui3i34,Balochistan,Sohbatpur,Jhatpat,13000,14,High,Poor,AID REQUIRED,96.0,PDMA Sohbatpur Relief Camp,No
+2026-04-24 23:38:57,edesdwqqwqwe,qeqwewq,qewe,qeqwe,Balochistan,Sohbatpur,Jhatpat,13000,14,High,Poor,AID REQUIRED,96.0,PDMA Sohbatpur Relief Camp,No
+2026-05-01 04:09:57,sample_name,sample_cnic,sample_number,sample_address,Sindh,Dadu,Johi,15000,12,High,Poor,AID REQUIRED,99.0,PDMA Dadu Relief Camp,No
