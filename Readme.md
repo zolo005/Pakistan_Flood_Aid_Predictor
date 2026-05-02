@@ -1,34 +1,28 @@
 # 🌊 Pakistan Flood Aid Predictor
 
-An AI-powered humanitarian relief distribution system built to predict which households need urgent flood aid during Pakistan's catastrophic 2022 floods.
+A humanitarian relief distribution system built to predict which households need urgent flood aid during Pakistan's catastrophic 2022 floods.
 
 ---
-
 ## 📖 About The Project
-
-In 2022, Pakistan experienced its worst floods in recorded history — affecting over 33 million people, damaging 1.7 million homes, and devastating 116 districts across 5 provinces. Growing up in Dadu, Sindh — one of the most severely affected regions — I witnessed firsthand how families were left without aid not because resources didn't exist, but because there was no data-driven system to identify who needed help most urgently.
+In 2022, Pakistan experienced its worst floods in recorded history, affecting over 33 million people, damaging 1.7 million homes, and devastating 116 districts across 5 provinces. Growing up in Dadu/Sindh, one of the most severely affected regions. I witnessed firsthand how families were left without aid not because resources didn't exist, but because there was no data-driven system to identify who needed help most urgently.
 
 This project is my attempt to solve that problem using Machine Learning and Data Science.
 
-The system takes household-level information as input and predicts whether a family requires flood relief aid. When aid is required, it identifies the nearest official relief center and automatically dispatches a structured email notification — turning a prediction into an actionable relief request.
+The system takes household-level information as input and predicts whether a family requires flood relief aid. When aid is required, it identifies the nearest official relief center and automatically dispatches a structured email notification, turning a prediction into an actionable relief request.
 
 ---
-
 ## ✨ Features
-
-- **ML-Powered Prediction** — Random Forest Classifier trained on 14,320 households across 5 provinces
-- **Real Data** — Built using official IOM DTM Pakistan Flood Response 2022 data from OCHA HDX
-- **Province → District → City** — Three-level location selection covering all major flood-affected areas
-- **Nearby Relief Centers** — Automatically shows PDMA, Red Crescent and Edhi Foundation centers for selected district
-- **Professional UI** — Dark humanitarian dashboard design built with Streamlit
-- **Relief Dispatch** — When aid is required, collects applicant details and emails the nearest relief center automatically
-- **CSV Logging** — Every submission logged locally for record keeping
-- **Severity Classification** — Critical, High and Moderate priority tags based on confidence score
+- **ML-Powered Prediction** - Random Forest Classifier trained on 14,320 households across 5 provinces
+- **Real Data** - Built using official IOM DTM Pakistan Flood Response 2022 data from OCHA HDX
+- **Province → District → City** - Three-level location selection covering all major flood-affected areas
+- **Nearby Relief Centers** - Automatically shows PDMA, Red Crescent and Edhi Foundation centers for selected district
+- **Professional UI** - Dark humanitarian dashboard design built with Streamlit
+- **Relief Dispatch** - When aid is required, collects applicant details and emails the nearest relief center automatically
+- **CSV Logging** - Every submission logged locally for record keeping
+- **Severity Classification** - Critical, High and Moderate priority tags based on confidence score
 
 ---
-
 ## 📊 Model Details
-
 | Property | Value |
 |----------|-------|
 | Algorithm | Random Forest Classifier |
@@ -37,6 +31,7 @@ The system takes household-level information as input and predicts whether a fam
 | Data Source | IOM DTM Pakistan Flood Response 2022 — OCHA HDX |
 | Provinces Covered | Sindh, Balochistan, KPK, Punjab, Gilgit-Baltistan |
 
+---
 ### Input Features
 - Province, District, City
 - Monthly Income (PKR)
@@ -54,9 +49,7 @@ The system takes household-level information as input and predicts whether a fam
 - Medical Emergency in Household
 
 ---
-
 ## 🛠️ Tech Stack
-
 | Tool | Purpose |
 |------|---------|
 | Python | Core language |
@@ -69,8 +62,8 @@ The system takes household-level information as input and predicts whether a fam
 | pickle | Model serialization |
 | smtplib | Automated email dispatch |
 
----
 
+---
 ## 📁 Project Structure
 Pakistan_Flood_Aid_Predictor/
 │
@@ -85,10 +78,9 @@ Pakistan_Flood_Aid_Predictor/
 ├── pak_dtm_flood_response_cni_r6_hdx.xlsx
 └── pak_dtm_flood_response_cnit_r7_for-publishing_final_ya.xlsx
 
+
 ---
-
 ## 🚀 How To Run
-
 **1. Clone the repository**
 ```bash
 git clone https://github.com/zolo005/Pakistan_Flood_Aid_Predictor.git
@@ -134,7 +126,7 @@ To generate one: Google Account → Security → 2-Step Verification → App Pas
 ---
 ## 👨‍💻 About The Developer
 Built by **Awais Ali Abro** a Data Science student from Dadu, Sindh, Pakistan.
-This project was built entirely through self-study alongside FSC Pre-Engineering studies. The motivation came from personally witnessing the 2022 floods devastate my community in Dadu, Sindh — and seeing families struggle to access aid because of poor data systems.
+This project was built entirely through self-study alongside FSC Pre-Engineering studies. The motivation came from personally witnessing the 2022 floods devastate my community in Dadu,Sindh and seeing families struggle to access aid because of poor data systems.
 Certifications: Oracle AI Foundations Associate & Oracle Generative AI Professional
 
 ---
