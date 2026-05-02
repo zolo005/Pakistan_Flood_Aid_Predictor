@@ -127,13 +127,13 @@ To generate one: Google Account → Security → 2-Step Verification → App Pas
 
 ---
 ## 📦 Data Sources
-- **IOM DTM Pakistan Flood Response 2022** — Round 6 & 7, OCHA Humanitarian Data Exchange (HDX)
-- **Sindh & Gilgit-Baltistan** — Synthetically generated based on real OCHA 2022 flood statistics
-- **Relief Center Data** — PDMA, Pakistan Red Crescent, Edhi Foundation official contact information
+- **IOM DTM Pakistan Flood Response 2022** Round 6 & 7, OCHA Humanitarian Data Exchange (HDX)
+- **Sindh & Gilgit-Baltistan** Synthetically generated based on real OCHA 2022 flood statistics
+- **Relief Center Data** PDMA, Pakistan Red Crescent, Edhi Foundation official contact information
 
 ---
 ## 👨‍💻 About The Developer
-Built by **Awais Ali** — a Data Science student from Dadu, Sindh, Pakistan.
+Built by **Awais Ali Abro** a Data Science student from Dadu, Sindh, Pakistan.
 This project was built entirely through self-study alongside FSC Pre-Engineering studies. The motivation came from personally witnessing the 2022 floods devastate my community in Dadu, Sindh — and seeing families struggle to access aid because of poor data systems.
 Certifications: Oracle AI Foundations Associate & Oracle Generative AI Professional
 
